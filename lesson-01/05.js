@@ -8,7 +8,7 @@ switch (true) {
   case rule.length > 25:
     answer = "У меня 100 пудов все получится";
     break;
-  case (rule.length = 25):
+  case rule.length == 25:
     answer = "50 на 50";
 }
 console.log(answer);
