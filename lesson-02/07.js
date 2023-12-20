@@ -8,6 +8,7 @@ let passportMarried = {
 };
 
 let passportMarried2 = { ...passportMarried, married: true, address: { ...passportMarried.address} } 
- 
+passportMarried2.married = ...
+
 console.log(passportMarried); 
 console.log(passportMarried2);
